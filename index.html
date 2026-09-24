@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diario de Bordo</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="manifest" href="manifest.json">
+</head>
+<body class="geral">
+   <header class="geral_header">
+    <h1 class="titulo">Diário de Bordo</h1>
+    <button class="btn-install" type="button" id="install">Instalar Aplicativo</button>
+   </header>
+
+   <main class="geral_main">
+        <h2 class="sub-titulo">Adicionar Registro</h2>
+
+        <div class="main_registro">
+
+            <form id="formRegistro">
+                <div class="campo-container">
+                    <input class="registro_input" type="text" id="titulo" placeholder=" ">
+                    <label class="registro_label" for="titulo">Título</label>
+                </div>
+                <div class="campo-container">
+                    <input class="registro_input" type="date" name="calendar" id="data" placeholder=" ">
+                    <label class="registro_label" for="data">Data</label>
+                </div>
+                <div class="campo-container">
+                    <textarea class="registro_input" name="description" id="descricao" placeholder=" "></textarea>
+                    <label class="registro_label" for="descricao">Descrição</label>
+                </div>
+                <button type="submit">
+                    Salvar Registro
+                </button>
+            </form>
+
+        </div>
+
+        <div class="main_meusRegistros">
+            <h2 class="sub-titulo">Meus Registros</h2>
+            <ul class="lista-dados" id="lista"></ul>
+        </div>
+    </main>
+   <footer class="">2026 Diario de Bordo - Todos os direitos reservados.</footer>
+   <script src="script.js"></script>
+</body>
+</html>
