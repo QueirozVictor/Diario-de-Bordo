@@ -30,7 +30,9 @@ A aplicação também pode ser instalada em dispositivos compatíveis e utiliza 
 
 ## Imagem do projeto
 
-[Imagem do Projeto em produção](image/screenShot.webp)
+<p align="center">
+    <img src="./image/screenShot.webp" alt="Imagem do projeto" width="600" >
+</p>
 
 
 ## Deploy
